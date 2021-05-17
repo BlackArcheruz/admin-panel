@@ -15,14 +15,6 @@ function App() {
     <Router>
     <div className="app">
       <Switch>
-        <Route path="/dashboard">
-        <Header/>
-        <Search/>
-          <Start/>
-          <Dashboard/>
-          <div className="top-div"><a href="#" class="menu-link pe-0 top"><i className="bi bi-arrow-up"></i></a></div>
-          <Footer/>
-        </Route>
         <Route path="/profile/overview">
         <Header/>
         <Search/>
@@ -63,8 +55,16 @@ function App() {
           <div className="top-div"><a href="#" class="menu-link pe-0 top"><i className="bi bi-arrow-up"></i></a></div>
           <Footer/>
         </Route>
-        <Route path="/">
+        <Route path="/login">
           <Login/>
+        </Route>
+            <Route path="/">
+        <Header/>
+        <Search/>
+          <Start/>
+          <Dashboard/>
+          <div className="top-div"><a href="#" class="menu-link pe-0 top"><i className="bi bi-arrow-up"></i></a></div>
+          <Footer/>
         </Route>
       </Switch>
       
