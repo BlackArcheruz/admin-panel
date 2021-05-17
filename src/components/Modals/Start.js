@@ -49,7 +49,7 @@ const Start = () => {
                     <h3 className="fw-bolder mb-3 fs-5">{menu.title}</h3>
                     <div className="d-flex flex-column">
                     {menu.links.map((link)=>(
-                      <Link to="/dashboard" className="menu-link-1 ps-0 py-2" key={menu.id}>{link}</Link>
+                      <Link to="/" className="menu-link-1 ps-0 py-2" key={menu.id}>{link}</Link>
                     ))}
                     </div>
                     </div>))}
@@ -60,7 +60,7 @@ const Start = () => {
                     <h3 className="fw-bolder mb-3 fs-5">{menu.title}</h3>
                     <div className="d-flex flex-column">
                     {menu.links.map((link)=>(
-                      <Link to="/dashboard" className="menu-link-1 ps-0 py-2" key={menu.id}>{link}</Link>
+                      <Link to="/" className="menu-link-1 ps-0 py-2" key={menu.id}>{link}</Link>
                     ))}
                     </div>
                     </div>))}
