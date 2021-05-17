@@ -32,7 +32,7 @@ const Login = () => {
                 <input type="password" placeholder="Password" className={`form-control my-3 ${password === '' ?'is-invalid': 'is-valid'}`} value={password} onChange={(e)=>setPassword(e.target.value)}/>
                 {password === '' ? <div className="invalid-feedback">Password is Required</div> : null}
                 <div className="d-flex flex-row">
-                <a href="/dashboard" className={`btn btn-primary py-3 px-3 ${email === '' && password === '' ? 'disabled' : ''}`}>Sign In</a>
+                <a href="/" className={`btn btn-primary py-3 px-3 ${email === '' && password === '' ? 'disabled' : ''}`}>Sign In</a>
                 <button className="btn btn-primary bg-light-primary py-3 px-3 mx-3" style={{color: "#20d489"}}><i className="bi bi-google"></i> Sign In with Google</button>
                 </div>
                 <div className="footer d-flex flex-row justify-content-between mt-5 pt-5" style={{color: "#20db489 !important"}}>
