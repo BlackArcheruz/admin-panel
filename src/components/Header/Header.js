@@ -44,7 +44,7 @@ const Header = () => {
         <DropdownItem className="menu-link menu-btn" style={{width: "50%"}}><Link to="/profile/overview" className="d-flex flex-column align-items-center justify-content-center"> <i className="bi bi-grid-fill" style={{fontSize: "1.5rem"}}></i> My Profile</Link></DropdownItem>
         <DropdownItem className="menu-link menu-btn" style={{width: "50%"}}><Link to="/profile/settings" className="d-flex flex-column align-items-center justify-content-center"><i className="bi bi-gear-fill" style={{fontSize: "1.5rem"}}></i> Settings</Link></DropdownItem>
         <DropdownItem className="menu-link menu-btn" style={{width: "50%"}}><Link to="/profile/account" className="d-flex flex-column align-items-center justify-content-center"><i className="bi bi-cash" style={{fontSize: "1.5rem"}}></i> Subscriptions</Link></DropdownItem>
-        <DropdownItem className="menu-link menu-btn" style={{width: "50%"}}><Link to="/" className="d-flex flex-column align-items-center justify-content-center"><i className="bi bi-box-arrow-right" style={{fontSize: "1.5rem"}}></i> Sign Out</Link></DropdownItem>
+        <DropdownItem className="menu-link menu-btn" style={{width: "50%"}}><Link to="/login" className="d-flex flex-column align-items-center justify-content-center"><i className="bi bi-box-arrow-right" style={{fontSize: "1.5rem"}}></i> Sign Out</Link></DropdownItem>
         </div>
       </DropdownMenu>
                 </Dropdown>
