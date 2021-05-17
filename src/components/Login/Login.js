@@ -7,7 +7,7 @@ const Login = () => {
         <div className="d-flex flex-sm-column flex-md-column flex-lg-column flex-xl-row flex-xxl-row login">
             <div className="d-flex flex-column align-items-center justify-content-center text-center form-cover">
                 <div className="d-flex flex-column my-5">
-                <a href="/dashboard" className="text-center text-gray-600 my-4"><h3 className="fw-bolder text-gray-600 my-2 fs-1">Start.</h3></a>
+                <a href="/" className="text-center text-gray-600 my-4"><h3 className="fw-bolder text-gray-600 my-2 fs-1">Start.</h3></a>
                 <h4 className="fw-bold">Discover Start <br/><br/>with great build tools</h4>
                 </div>
                 <div className="bg-form d-flex flex-row-fluid bgi-size-contain bgi-no-repeat bgi-position-y-bottom bgi-position-x-center min-h-350px mt-5"></div>
