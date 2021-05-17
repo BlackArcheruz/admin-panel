@@ -15,6 +15,9 @@ function App() {
     <Router>
     <div className="app">
       <Switch>
+    <Route exact path="/">
+          <Login/>
+        </Route>
         <Route exact path="/dashboard">
         <Header/>
         <Search/>
@@ -22,9 +25,6 @@ function App() {
           <Dashboard/>
           <div className="top-div"><a href="#" class="menu-link pe-0 top"><i className="bi bi-arrow-up"></i></a></div>
           <Footer/>
-        </Route>
-        <Route exact path="/">
-          <Login/>
         </Route>
         <Route exact path="/profile/overview">
         <Header/>
